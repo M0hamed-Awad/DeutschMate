@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Deutsch Mate</string>
+    <string name="family_members_activity_title">Don\'t know your Family Members yet?</string>
+    <string name="activities_sub_title">Click on any Card to Listen to the Pronunciation</string>
+    <string name="body_parts_activity_title">Let\'s discover some Body Parts!</string>
+    <string name="jobs_activity_title">What is your Job?</string>
+    <string name="colors_activity_title">Want to Paint?\nLet\'s discover some Colors first !</string>
+    <string name="numbers_activity_title">Can you Count from 1 to 10 ?</string>
+    <string name="welcome_string">Welcome to Deutsch Mate 🇩🇪</string>
+</resources>

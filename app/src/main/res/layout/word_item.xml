@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:background="@drawable/word_card_bg"
+    android:paddingVertical="32dp"
+    android:paddingHorizontal="16dp">
+
+    <ImageView
+        android:id="@+id/word_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Word Image"
+        android:src="@drawable/eye"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/english_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginVertical="16dp"
+            android:text="Enlglish Text"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/german_text_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="German Text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
